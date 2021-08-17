@@ -1,3 +1,1 @@
-# Portfolio
-
-To view the live site click [here](https://portfolio-jet-phi.vercel.app/)
+# This will contain most if not all HNG tasks
