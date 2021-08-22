@@ -55,19 +55,19 @@ a {
   flex-flow: row nowrap;
   align-items: center;
   gap: 0.5vw;
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 .general-info h1 {
-  font-size: 5.5vw;
+  font-size: 6vw;
 }
 .general-info h2 {
-  font-size: 3.5vw;
+  font-size: 4vw;
 }
 
 .personal-info {
   background: #208ed7;
   padding: 3vw 5vw;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .main {
@@ -83,7 +83,7 @@ a {
   align-items: center;
   gap: 1vw;
   color: #208ed7;
-  font-size: 2.5vw;
+  font-size: 4.5vw;
 }
 .main .experience-grp {
   grid-row: 1/2;
@@ -105,29 +105,29 @@ a {
   gap: 1vw;
 }
 
-.experience .has_logo {
+/* .experience .has_logo {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   gap: 0.2vw;
-}
+} */
 
-.has_logo .logo {
+/* .has_logo .logo {
   width: 25%;
-}
+} */
 
 .experience p {
-  font-size: 2.5vw;
+  font-size: 3.7vw;
 }
 p.duration {
-  font-size: 2.2vw;
+  font-size: 3.5vw;
 }
 .experience .company-name {
   font-weight: 700;
 }
 .experience li {
   list-style: circle;
-  font-size: 2.3vw;
+  font-size: 3.5vw;
 }
 .main .skills-cont {
   display: flex;
@@ -144,10 +144,10 @@ p.duration {
   flex-flow: row nowrap;
   align-items: center;
   gap: 2vw;
-  font-size: 2.5vw;
+  font-size: 4vw;
 }
 .skills-grp img {
-  width: 3.5vw;
+  width: 4vw;
 }
 .html5 {
   color: #e96228;
@@ -190,10 +190,10 @@ p.duration {
   font-weight: 700;
 }
 .education p {
-  font-size: 2.5vw;
+  font-size: 4vw;
 }
 .education .duration {
-  font-size: 2vw;
+  font-size: 3.5vw;
 }
 .skills-cont p {
   font-size: 2vw;
@@ -220,7 +220,7 @@ p.duration {
   color: #2862e9;
 }
 .project-grp p {
-  font-size: 2.5vw;
+  font-size: 4vw;
 }
 .project-grp .project-name {
   font-weight: 700;
@@ -231,7 +231,7 @@ p.duration {
   gap: 2vw;
 }
 .languages p {
-  font-size: 2.5vw;
+  font-size: 4vw;
 }
 
 @media (min-width: 768px) {
@@ -294,7 +294,7 @@ p.duration {
   }
 
   .main .skills-cont {
-    gap: 0.5rem;
+    gap: 1rem;
   }
   .skills-grp__cont {
     gap: 0.25rem;
@@ -316,7 +316,7 @@ p.duration {
     font-size: 1rem;
   }
   .main .education {
-    gap: 0.5rem;
+    gap: 1rem;
   }
   .education p {
     font-size: 1.2rem;
@@ -326,7 +326,7 @@ p.duration {
   }
 
   .main .projects {
-    gap: 0.5rem;
+    gap: 1rem;
   }
   .projects .project-cont {
     gap: 0.5rem;
@@ -341,7 +341,7 @@ p.duration {
   }
 
   .main .languages {
-    gap: 0.5rem;
+    gap: 1rem;
   }
   .languages p {
     font-size: 1.2rem;
