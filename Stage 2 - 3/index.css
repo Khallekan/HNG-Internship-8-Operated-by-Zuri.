@@ -71,9 +71,9 @@ a {
 }
 
 .main {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  grid-template-rows: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2vw;
   padding: 3vw 5vw;
   gap: 2vw;
 }
@@ -86,6 +86,7 @@ a {
   font-size: 4.5vw;
 }
 .main .experience-grp {
+  order: -1;
   grid-row: 1/2;
   display: flex;
   flex-flow: column nowrap;
@@ -130,13 +131,14 @@ p.duration {
   font-size: 3.5vw;
 }
 .main .skills-cont {
+  order: -1;
   display: flex;
   flex-flow: column nowrap;
   gap: 2vw;
 }
 .skills-grp__cont {
-  display: flex;
-  flex-flow: column nowrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(25%, 1fr));
   gap: 1vw;
 }
 .skills-cont .skills-grp {
@@ -199,6 +201,7 @@ p.duration {
   font-size: 2vw;
 }
 .main .projects {
+  order: -1;
   display: flex;
   flex-flow: column nowrap;
   gap: 2vw;
@@ -271,6 +274,9 @@ p.duration {
   }
 
   .main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
     padding: 2rem 2.5rem;
     gap: 1rem;
   }
@@ -297,6 +303,8 @@ p.duration {
     gap: 1rem;
   }
   .skills-grp__cont {
+    display: flex;
+    flex-flow: column nowrap;
     gap: 0.25rem;
   }
   .skills-cont .skills-grp {
